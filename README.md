@@ -57,15 +57,13 @@ Strategic Implications of Correlation
 
 Final Descision regarding Model choice
 
-Model Selection Breakdown
-Criteria	Ridge Regression	Random Forest	Gradient Boosting
-Accuracy	📉 Low	✅ Highest	👍 Good
-Interpretability	✅ High (linear model)	⚠️ Moderate (trees ensemble)	⚠️ Moderate
-Handling Outliers	❌ Poor	✅ Strong	✅ Strong
-Nonlinear Relationships	❌ Poor	✅ Excellent	✅ Excellent
-Uncertainty Estimation	⚠️ Basic	✅ Can use bootstrapping	✅ Can use SHAP & intervals
-Generalizability	✅ High	✅ High	✅ Medium-High
-Sustainability Impact	❌ Static assumptions	✅ Feature insights inform action	✅ Good but sensitive to tuning
+Ridge Regression is a linear model known for its high interpretability, making it easy to understand and explain. However, its accuracy tends to be lower compared to more complex models. It's not well-suited for handling outliers or capturing nonlinear relationships. It offers only basic capabilities for estimating uncertainty. One of its strengths is high generalizability, which means it performs well across different datasets. On the sustainability front, its static assumptions can limit its impact in dynamic or feature-driven contexts.
+
+Random Forest delivers the highest accuracy among the three, thanks to its ensemble of decision trees. It handles outliers robustly and excels at modeling nonlinear relationships. While it’s moderately interpretable, it can use bootstrapping methods to estimate uncertainty. Its generalizability is strong, and it can provide useful insights into feature importance, which helps guide sustainable actions and decision-making.
+
+Gradient Boosting performs well in terms of accuracy, trailing slightly behind Random Forest. Like Random Forest, it manages outliers effectively and is highly capable of modeling nonlinear patterns. Its interpretability is moderate but can be improved with techniques like SHAP values and interval-based uncertainty estimation. Though it generalizes well, it’s somewhat sensitive to hyperparameter tuning. In terms of sustainability, it has good potential but may require careful calibration to maximize impact.
+
+I finally choose **Gradient Boosting** for my final model after hyperparameter tuning.
 
 Interpretation of CV R² Scores with the help of Cross Validation using KFold, StratifiedKFold, cross_val_score
 
