@@ -36,7 +36,7 @@ These findings can guide practical decisions—such as optimizing pesticide use,
 
 Imagine a farmer in a tropical zone with high rainfall and warm temperatures, using minimal pesticides. Compare that to one in a cold, dry region relying heavily on chemical inputs. How do their yields differ? What practices lead to better outcomes?  
 
-
+- Link to the notebook: `Part2_MM_25_3_Portfolio_Project.ipynb`  
 
 ---
 ## Who It's For
@@ -144,7 +144,8 @@ To enhance transparency and interpretability, SHAP (SHapley Additive exPlanation
 
 SHAP analysis confirmed that both environmental and agricultural variables play critical roles in determining crop yield. These insights support more informed, localized decision-making in agricultural planning.
 
-![image.png](attachment:0ad07b38-6e05-47ff-a28e-a19580b271b0.png).
+<img width="689" height="722" alt="image" src="https://github.com/user-attachments/assets/3944a99e-bed0-49ac-a7c4-80128be15237" />
+
 ---
 
 ## ✅ Key Insights
@@ -198,7 +199,10 @@ Whether you're growing rice in a humid zone or wheat in a dry one, this tool off
 - [📈 Link to Main Model Building Code](Part2_MM_25_3_Portfolio_Project.ipynb)  
 - [📋 Model Card](model_card.md)  
 - [📄 Data Sheet](data_sheet.md)
-
+- [📈 Link to overview of Main Model](Overview_Of_Main_Model_Flow.md) 
+- [📈 Link to overview of Data Preprocessing](Overview_Of_Data__Pre-Processing.md)
+- [📈 Link to Data Pre-Processing Code](Part1_MM_25_3_Portfolio_Project.ipynb) 
+- [📋 Link to Main Data File](final_crop_yield_data.csv)
 ---
 
 ## 🔮 Future Directions
